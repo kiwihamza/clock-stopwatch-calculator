@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Clock Example</title>
+        
+    </head>
+
+    <body>
+        <section class="clock">
+        <h1 >Clock Example</h1>
+        <div  id="clock"></div>
+</section>
+<section class="stopwatch">
+    <h1>Stopwatch Example</h1>
+    <div . class="display" id="display">00:00:00:000</div>
+    <button class="start" id="start">Start</button>
+    <button  class="stop" id="stop">Stop</button>
+    <button class="reset" id="reset">Reset</button>
+
+</section>
+<section class="Calculator"> 
+
+        <h1>Calculator Example</h1>
+        <div class="calculator">
+            <input type="text" id="result" disabled>
+            <button class="clear" onclick="clearResult()">C</button>
+            <button onclick="appendNumber(7)">7</button>
+            <button onclick="appendNumber(8)">8</button>
+            <button onclick="appendNumber(9)">9</button>
+            <button class="operator" onclick="appendOperator('+')">+</button>
+            <button onclick="appendNumber(4)">4</button>
+            <button onclick="appendNumber(5)">5</button>
+            <button onclick="appendNumber(6)">6</button>
+            <button class="operator" onclick="appendOperator('-')">-</button>
+            <button onclick="appendNumber(1)">1</button>
+            <button onclick="appendNumber(2)">2</button>
+            <button onclick="appendNumber(3)">3</button>
+            <button class="operator" onclick="appendOperator('*')">*</button>
+            <button onclick="appendNumber(0)">0</button>
+            <button class="operator" onclick="appendOperator('/')">/</button>
+            <button class="equal" onclick="calculateResult()">=</button>
+        </div>
+
+     
+
+
+
+
+
+
+</section>
+        <script src="clock.js"></script>
+    </body>
+
+</html>
